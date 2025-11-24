@@ -21,15 +21,24 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{liu2024modality}
+E.~L. Ramos and \textbf{D.~Liu}, ``Multimodality semantic matching,'' in
+  \emph{Amazon Machine Learning Berlin Workshop}, 2024.
+
+\bibitem{liu2022pecos}
+\textbf{D.~Liu}, S.~Nag, and W.-C. Chang, ``Two brand entity prediction
+  solutions for e-commerce queries,'' in \emph{Amazon Machine Learning
+  Conference MELR Workshop}, 2022.
+
+\bibitem{Antonios2022lsr}
+A.~Krasakis, \textbf{D.~Liu}, and I.~F. Tobias, ``Improving the efficienty of
+  semantic matchign for product search,'' in \emph{Amazon InTech Machine
+  Learning Workshop}, 2022.
+
 \bibitem{liu2020region}
 \textbf{D.~Liu}, R.~Thobaben, and L.~K. Rasmussen, ``Region-based energy neural
   network for approximate inference,'' \emph{arXiv preprint arXiv:2006.09927},
   2020.
-
-\bibitem{liu2020alpha}
-\textbf{D.~Liu}, M.~T. Vu, Z.~Li, and L.~K. Rasmussen, ``$\alpha$ belief
-  propagation for approximate inference,'' \emph{arXiv preprint
-  arXiv:2006.15363}, 2020.
 
 \bibitem{zuxing2020cdc}
 Z.~Li, G.~Dan, and \textbf{D.~Liu}, ``A game theoretic analysis of lqg control

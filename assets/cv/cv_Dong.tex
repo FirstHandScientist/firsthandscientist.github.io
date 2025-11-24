@@ -33,7 +33,7 @@
 \usepackage[usenames,dvipsnames]{xcolor}
 
 % Several biblographies[sectionbib/subsectionbib]
-\usepackage[subsectionbib]{bibunits}
+\usepackage[sectionbib]{bibunits}
 
 % Margin specification
 \usepackage{fullpage}
@@ -48,6 +48,8 @@
 \usepackage{titlesec} % Used to customize the \section command
 % Text formatting
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\large\scshape\raggedright}{}{0em}{}
+
 % Spacing
 \titlespacing{\section}{0pt}{3pt}{3pt}
 
@@ -90,9 +92,9 @@
 \section{Personal data}
 
 \begin{tabular}{rl}
-  \textsc{Address:} & Malvinas Vag 10, Stockholm, Sweden \\
+  % \textsc{Address:} & Malvinas Vag 10, Stockholm, Sweden \\
   \textsc{Phone:} & +460767103249 \\
-  \textsc{Email:} & \href{mailto:liu-dong@live.cn}{\nolinkurl{liu-dong@live.cn}}, \href{mailto:doli@kth.se}{\nolinkurl{doli@kth.se}} \\
+  \textsc{Email:} & \href{mailto:dong2015liu@gmail.com}{\nolinkurl{dong2015liu@gmail.com}}\\
   % \textsc{Google Scholar:} & \href{https://scholar.google.com/citations?user=eK9LoQMAAAAJ&hl=en}{\aiGoogleScholar}\\
   \textsc{Website:} & \href{https://firsthandscientist.github.io}{https://firsthandscientist.github.io}\\
 \end{tabular}
@@ -103,12 +105,45 @@
 
 \section{Work Experience}
 \begin{tabular}{r|p{13cm}}
-  \textsc{Present}  & Researcher on Bayesian models and methods, Department of Intelligent Systems \\
-  \textsc{2020 Nov}  & KTH Royal Institute of Technology, Stockholm, Sweden.\\
+  \textsc{Present}  & \textbf{Applied Scientist, Amazon, Luxembourg}\\
+  \textsc{2021 May}   & Topics: machine/deep learning, information retrieval (product search), natural language processing\\
+         {}   & \textbullet TechLead in semantic retrieval. Coach and grow the semantic retrieval solution team owning 12 Amazon new/emerging online e-commerce stores. \\
+         {}   & \textbullet Supervisor/Manager experience of machine learning applied scientists and interns. \\
+         {}   & \textbullet Experience and knowledge in search retrieval pipeline and search query understanding. \\
+         {}   & \textbullet Strong work knowledge: \\
+         {}   & \hspace{0.5cm} \(\diamond\) Machine leaning based techniques for large-scale (billions) product retrieval, \\
+         {}   & \hspace{0.5cm} \(\diamond\) Semantic retrieval, solution design and deep learning solution iterations.\\
+         {}   & \hspace{0.5cm} \(\diamond\) Multi-modality solution for large-scale e-commerce, text-visual deep learning multi-modality model for product search \\
+         {}   & \hspace{0.5cm} \(\diamond\) Retrieval-Augmented Generative (RAG) evaluation frameworks. \\
+  %% {}   & \textbullet Address product search problems by (deep) machine learning methods (e.g. transformers, knowledge graph, language models)\\
+  %% {}   & \textbullet Design and implement machine learning algorithms\&models for Amazon Backend Product Search with a focus on semantic search and query indent understanding.\\
+
+
+  \multicolumn{2}{c}{} \\
+  \textsc{2021 May} & \textbf{Researcher, KTH Royal Institute of Technology, Stockholm, Sweden}\\
+  \textsc{2020 Nov}  & \textbullet Research on Bayesian models and methods with Department of Intelligent Systems \\
+  {} & \textbullet Postgraduate course teaching assistant and student thesis supervisor \\
+
   \multicolumn{2}{c}{} \\
 
-  \textsc{2016 Dec}  & Research engineer, standardization of radio access technology  \\
-  \textsc{2016 Apr}  & Shanghai Research Institute, Huawei Technologies Co., Ltd \\
+  \textsc{2020 Nov} 	& \textbf{Ph.D. Candidate, Teaching Assistant, KTH Royal Institute of Technology, Stockholm, Sweden} \\
+    \textsc{2016 Dec}   & \textbullet {Practical Bayesian machine learning method development and applications.} \\
+    \multicolumn{2}{c}{} \\
+
+  \textsc{2016 Nov}  & \textbf{Research Engineer, Shanghai Research Institute of Huawei Technologies}\\
+  \textsc{2016 Apr}  & \textbullet Standardization of radio access technology  \\
+\end{tabular}
+
+% ----------------------------------------------------------------------------------------
+% COMPUTER SKILLS
+% ----------------------------------------------------------------------------------------
+
+\section{Skill Set}
+
+\begin{tabular}{rp{12cm}}
+	Skills:  & Amazon Web Services (AWS), Apache Spark, VPC, Amazon Elastic MapReduce (EMR), AWS SageMaker, PyTorch, Docker Container, Search Engine Technology
+                       \vspace{5pt}\\
+	Programming:       & \textsc{Python, PySpark, Java, Bash, \LaTeX}  \vspace{5pt}\\
 \end{tabular}
 
 
@@ -120,12 +155,10 @@
 
 \begin{tabular}{r|p{13cm}}
 
-  \textsc{2020 Nov} 	& Ph.D. (temporary employee)\\
+  \textsc{2020 Nov} 	& Ph.D.\\
   \textsc{2016 Dec} 	& {Research in statistical models, Bayesian inference, machine learning} \\
                       & {Dissertation: \href{https://github.com/FirstHandScientist/phdthesis}{\textbf{Perspectives on Probabilistic Graphical Models}}}, \href{http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1476655&dswid=353}{KTH DIVA} \\
-                      & { Information Science and Engineering, Department of Intelligent Systems
-                        } \\
-                      & {School of Electrical Engineering and Computer Science} \\
+                      & {Department of Intelligent Systems} \\
                       & {KTH Royal Institute of Technology, Stockholm, Sweden.} \\
   \multicolumn{2}{c}{} \\
 
@@ -139,53 +172,29 @@
 
   % ------------------------------------------------
 
-  \textsc{2013 Jul} 	& B.E. \\
+  \textsc{2013 Jul} 	& \textbf{B.E.} \\
   \textsc{2009 Sep} & \textbf{Top $\mathbf{1\%}$, Excellent Graduate of Liaoning Province in 2013}\\
-
-                      & {Shenyang University of Technology, Shenyang, China} \\
+                      &  {Shenyang University of Technology, Shenyang, China}\\
+  \textsc{2012 Sep}  & Summer school at Chinese Academy of Sciences, China. \\
+  \textsc{2012 Aug}  & Summer school atKochi University of Technology, Kochi, Japan. \\
   \multicolumn{2}{c}{}\\
 
 \end{tabular}
 
-
-
-\section{Summer School}
-\begin{tabular}{r|p{13cm}}
-
-  \textsc{2012 Sep}  & Chinese Academy of Sciences, China. \\
-                     & Scholarship provided by the Chinese Academy of Sciences. \\
-  \multicolumn{2}{c}{}\\
-  \textsc{2012 Aug}  & Kochi University of Technology, Kochi, Japan. \\
-                     & Scholarship provided Kochi University of Technology.
-\end{tabular}
-
-% ----------------------------------------------------------------------------------------
-% COMPUTER SKILLS
-% ----------------------------------------------------------------------------------------
-
-\section{Practical skills (\href{https://github.com/FirstHandScientist}{\textit{GitHub Profile}})}
-
-\begin{tabular}{rp{12cm}}
-	Technical skills:  & I am a superuser. \\
-                     & Experience in the administration of Linux computational servers (2017-2020).
-                       \vspace{5pt}\\
-	Programming:       & \textsc{Python, Pytorch, Bash, C++ Matlab, \LaTeX}  \vspace{5pt}\\
-\end{tabular}
-
-\section{Research}
-\begin{tabular}{r|p{13cm}}
-\textsc{Interests} & Probabilistic graphical model design \\
-& General Bayesian inference and learning algorithm design \\% 通用贝叶斯推理/学习算法设计，置信度传播（belief propagation/message passing) \\
-& Time series model and algorithm design\\
-& Stochastic geometric, complex network\\
-& Application of above-mentioned models and algorithms
-\end{tabular}
+\subsection{Academic Projects Examples}
+% \begin{tabular}{r|p{13cm}}
+% \textsc{Interests} & Probabilistic graphical model design \\
+% & General Bayesian inference and learning algorithm design \\% 通用贝叶斯推理/学习算法设计，置信度传播（belief propagation/message passing) \\
+% & Time series model and algorithm design\\
+% & Stochastic geometric, complex network\\
+% & Application of above-mentioned models and algorithms
+% \end{tabular}
 
 % Probabilistic graphical model design, belief propagation/message passing, Bayesian inference and learning technique/methods, sequential data models, machine learning, stochastic geometry and their applications (e.g., \href{https://github.com/FirstHandScientist/genhmm}{Speech Recognition}, \href{https://ieeexplore.ieee.org/abstract/document/9054635}{Sepsis Detection}, \href{https://github.com/FirstHandScientist/classification-EM-GM}{Bayesian Classifier}, \href{https://arxiv.org/abs/2007.05703}{MIMO detection}).
 
 % Check out \href{https://firsthandscientist.github.io/#/research}{research\&development} to see more about my recent projects. Recent papers at my \href{https://scholar.google.com/citations?hl=en&user=eK9LoQMAAAAJ&view_op=list_works&sortby=pubdate}{google scholar}.
 
-\subsection{Recent Projects}
+% \subsection*{Academic Projects}
 \begin{tabular}{r|p{13cm}}
 \textsc{2020} & Neural network based probabilistic graphical model design and application\\
   \textsc{2019} & Likelihood-tractable probabilistic graphical model design integrating modern neural models, inference and learning algorithm design of proposed models. Computational platform: \href{https://www.snic.se/}{Swedish National Infrastructure for Computing} (SNIC 2019/3-232)\\
@@ -195,21 +204,22 @@
   \textsc{2018}& Joint project by KTH Royal Institute of Technology and Huawei Research\\
               & Low-complexity approximate belief propagation/message passing design and implementation, neural network based inference solution deign and benchmarks, application in MIMO detection. 1 million$+$ funding.\\
               & Two master students graduated from this projects (Scotti, Torres), supervised student paper received \textit{ICML Workshop GRL+ noval application}; partial open-source code \href{https://github.com/FirstHandScientist/amp}{github repository} \\
-    \multicolumn{2}{c}{} \\
-
-  & see \href{https://people.kth.se/~doli/#/research}{research\&development} for other recent research and developments\\
-
+  \multicolumn{2}{c}{} \\
+             Papers & Refer to \href{https://scholar.google.com/citations?hl=en&user=eK9LoQMAAAAJ&view_op=list_works&sortby=pubdate}{my Scholar} for publications and patents
 \end{tabular}
+
 
 % ----------------------------------------------------------------------------------------
 %	PUBLICATIONS
 % ----------------------------------------------------------------------------------------
 
 \begin{bibunit}[IEEEtran_Pol]
-  \renewcommand\refname{Recent Publications (or see more at \href{https://scholar.google.com/citations?hl=en&user=eK9LoQMAAAAJ&view_op=list_works&sortby=pubdate}{my Scholar})}
+  \renewcommand\refname{Publications (\href{https://scholar.google.com/citations?hl=en&user=eK9LoQMAAAAJ&view_op=list_works&sortby=pubdate}{my Scholar})}
   \nocite{
+    liu2024modality,
+    liu2022pecos,
+    Antonios2022lsr,
     liu2020region,
-    liu2020alpha,
     zuxing2020cdc,
     anubhad2020,
     andrea2020,
@@ -222,7 +232,7 @@
     liu2019alpha,
     liu2019dominant,
     liu2018will}
-  \footnotesize{\putbib[../bibfile]}
+  \footnotesize{\putbib[bibfile]}
 \end{bibunit}
   %   liu2015bounds,
   % wang2015rsh,
@@ -235,13 +245,61 @@
   % ren2015spectram,
   % ren2015spectrum}
 
-\subsection{Patent}
- X. Hu, \textbf{D. Liu}, T. Deng, Wireless communication method and apparatus, authorized regions: China (CN108377536A), USA (US20190261448A1), European (EP3528553A1), Brazil (BR112019008777A2).
+% \subsection{Patent}
+%  X. Hu, \textbf{D. Liu}, T. Deng, Wireless communication method and apparatus, authorized regions: China (CN108377536A), USA (US20190261448A1), European (EP3528553A1), Brazil (BR112019008777A2).
+
+
+\section{Teaching}
+\begin{longtable}{r|p{13cm}}
+  & \textbf{Courses} \\
+  \cline{2-2}
+  \textsc{2020 Fall} & Teaching Assistant \\
+  & Industry course (Ericsson), {EP232U Deep Neural Networks}, KTH Royal Institute of Technology, Sweden.\\
+  \cline{2-2}
+  \textsc{2020 Sep}  & Teaching Assistant \\
+  \textsc{2017 Sep}  & Graduate course \href{https://www.kth.se/student/kurser/kurs/EQ2341?l=en}{EQ2341 Pattern Recognition and Machine Learning} (regularly offer once per year), KTH Royal Institute of Technology, Sweden.\\
+  \multicolumn{2}{c}{} \\
+  % ------------------------------------------------
+
+     {} & \textbf{Supervision of Master Students}\\
+\cline{2-2}
+  % To \textsc{2021} & Julius Olson, Using machine learning to improve volume estimation and yield prediction in the Swedish forestry industry, joint project with Digital Edge, Sweden\\
+\cline{2-2}
+  To \textsc{2021} & Ruichao Qian, \\
+  & Master Thesis: \href{https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1704886&dswid=9010}{Research and Application of 6D Pose Estimation for Mobile 3D Cameras}, joint project Gleechi AB, Sweden\\
+  & Currently Software Engineer at Bytedance, Shanghai, China \\
+\cline{2-2}
+  % & Tianyi Li, Exploration of feature extraction algorithm on deepfake detection for videos, joint project with Guizhou YongHong Aviation Machinery, China\\ %
+  \cline{2-2}
+  & Andrea Pozzoli \\
+  & \href{https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1661649&dswid=8672}{Master thesis}: Deep Learning based Approximate Message Passing for MIMO Detection in 5G, joint project with Huawei research, Sweden \\
+  & Currently Data Scientist/Engineer at UBS, Switzerland \\
+  \cline{2-2}
+  & Matteo Ferrini \\
+  & \href{https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1668183&dswid=-2041}{Master thesis}: Machine learning algorithms for 5G, joint project with Huawei research, Sweden\\
+  & Currently Data Scientist at Lunar, Stockholm, Sweden \\
+  \cline{2-2}
+  & \href{https://www.linkedin.com/in/andrea-scotti-144955184/}{A. Scotti} (topic: graph neural network \& approximate message passing) \\
+  & Master thesis: \href{http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1479310&dswid=-8558}{Graph Neural Networks and Learned Approximate Message Passing Algorithms for Massive MIMO Detection}, joint project with Huawei research, Sweden \\
+  & Currently Artificial Intelligence Engineer in \href{https://nnaisense.com/}{NNAISENSE}, Switzerland\\
+\cline{2-2}
+&\href{https://www.linkedin.com/in/anubhabghosh/}{A. Ghosh} (topic: neural network \& hidden Markov model),  \\
+  & Master thesis: \href{http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1504139&dswid=6812}{Normalizing Flow based Hidden Markov Models for Phone Recognition} \\
+  & Currently Ph.D. candidate in KTH, Sweden \\
+\cline{2-2}
+& \href{https://www.linkedin.cn/in/joao-fernandes-torres/?trk=public_profile_browsemap_profile-result-card_result-card_full-click}{J. Torres} (topic: approximate inference \& message passing) \\
+  & Master thesis: \href{http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1421287&dswid=7763}{Approximate Inference Low-Complexity MIMO Detection}, joint project with Huawei research, Sweden\\
+  & Currently researcher in Institute for Systems and Robotics, Spain \\
+\cline{2-2}
+& F. Goncalves Contente \\
+From \textsc{2018} & Master thesis: \href{http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1498763&dswid=-1280}{Hierarchical Clustering based Dynamic Subarrays for Hybrid Beamforming Massive MU-MIMO}, joint project with Huawei research, Sweden
+\end{longtable}
+
 
 % ----------------------------------------------------------------------------------------
 %	SCHOLARSHIPS AND ADDITIONAL INFO
 % ----------------------------------------------------------------------------------------
-\subsection{Grants \& Scholarships}
+\section{Grants \& Scholarships}
 \begin{savenotes}
   \begin{longtable}{r|p{13cm}}
     % General Travel grant: 21500 SEK
@@ -283,42 +341,6 @@
   \end{longtable}
 \end{savenotes}
 
-\section{Teaching}
-\begin{longtable}{r|p{13cm}}
-  & Courses \\
-  \cline{2-2}
-  \textsc{2020 Fall} & Teaching Assistant \\
-  & Industry course (Ericsson), {EP232U Deep Neural Networks}, KTH Royal Institute of Technology, Sweden.\\
-  \cline{2-2}
-  \textsc{2020 Sep}  & Teaching Assistant \\
-  \textsc{2017 Sep}  & Graduate course \href{https://www.kth.se/student/kurser/kurs/EQ2341?l=en}{EQ2341 Pattern Recognition and Machine Learning} (regularly offer once per year), KTH Royal Institute of Technology, Sweden.\\
-  \multicolumn{2}{c}{} \\
-  % ------------------------------------------------
-
-     {} & Supervision of Master Students\\
-\cline{2-2}
-  \textsc{2021} & Julius Olson, Using machine learning to improve volume estimation and yield prediction in the Swedish forestry industry, joint project with Digital Edge, Sweden\\
-\cline{2-2}
-\textsc{2018}  & Ruichao Qian, Deep-learning-based pose estimation of 3D object, joint project Gleechi AB, Sweden\\
-\cline{2-2}
-  & Tianyi Li, Exploration of feature extraction algorithm on deepfake detection for videos, joint project with Guizhou YongHong Aviation Machinery, China\\
-  \cline{2-2}
-  & Andrea Pozzoli, Machine learning algorithms for 5G, joint project with Huawei research, Sweden \\
-  \cline{2-2}
-  & Matteo Ferrini, Machine learning algorithms for 5G, joint project with Huawei research, Sweden\\
-  \cline{2-2}
-  & \href{https://www.linkedin.com/in/andrea-scotti-144955184/}{A. Scotti} (topic: graph neural network \& approximate message passing), currently artificial intelligence engineer in \href{https://nnaisense.com/}{NNAISENSE}, Switzerland \\
- & Master thesis: \href{http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1479310&dswid=-8558}{Graph Neural Networks and Learned Approximate Message Passing Algorithms for Massive MIMO Detection}, joint project with Huawei research, Sweden \\
-\cline{2-2}
-&\href{https://www.linkedin.com/in/anubhabghosh/}{A. Ghosh} (topic: neural network \& hidden Markov model), currently Ph.D. candidate in KTH, Sweden \\
-& Master thesis: \href{http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1504139&dswid=6812}{Normalizing Flow based Hidden Markov Models for Phone Recognition} \\
-\cline{2-2}
-& \href{https://www.linkedin.cn/in/joao-fernandes-torres/?trk=public_profile_browsemap_profile-result-card_result-card_full-click}{J. Torres} (topic: approximate inference \& message passing), currently researcher in Institute for Systems and Robotics, Spain\\
-& Master thesis: \href{http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1421287&dswid=7763}{Approximate Inference Low-Complexity MIMO Detection}, joint project with Huawei research, Sweden\\
-\cline{2-2}
-& F. Goncalves Contente \\
-& Master thesis: \href{http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1498763&dswid=-1280}{Hierarchical Clustering based Dynamic Subarrays for Hybrid Beamforming Massive MU-MIMO}, joint project with Huawei research, Sweden
-\end{longtable}
 
 % ----------------------------------------------------------------------------------------
 % LANGUAGES
@@ -469,37 +491,6 @@
 % ----------------------------------------------------------------------------------------
 % REFEREE
 % ----------------------------------------------------------------------------------------
-\section{References}
-\begin{longtable}[H]{r|p{13.5cm}}
-  Assoc. Prof. & School of Electrical Engineering and Computer Science\\
-  Ragnar Thobaben &Royal Institute of Technology (KTH), Sweden \\
-               & Office: Room C:738, Malvinas vag 10, Stockholm, SE-100 44, Sweden \\
-               & Email: ragnart@kth.se \\
-               & Phone: +4687908452 \\
-
-  \multicolumn{2}{c}{} \\
-  Assoc. Prof. & School of Electrical Engineering and Computer Science\\
-  Saikat Chatterjee &Royal Institute of Technology (KTH), Sweden \\
-               & Office: Malvinas vag 10, Stockholm, SE-100 44, Sweden \\
-               & Email: sach@kth.se \\
-               & Phone: +4687908478 \\
-
-  \multicolumn{2}{c}{} \\
-
-  Prof.  & School of Electrical Engineering and Computer Science \\
-  Mikael Skoglund &Royal Institute of Technology (KTH), Sweden \\
-               & Office: Room A:415, Malvinas vag 10, Stockholm, SE-100 44, Sweden \\
-               & Email: skoglund@kth.se \\
-               & Phone: +4687908430 \\
-
-  \multicolumn{2}{c}{} \\
-  Prof. & School of Electronics and Information Engineering \\
-  Erwu Liu &Tongji University, China \\
-               & Office: 4800 Cao'an Highway, Jiading, 201804 Shanghai, China\\
-               & Email: erwu.liu@ieee.org or erwuliu@tongji.edu.cn \\
-               & Phone: +8615800903275
-\end{longtable}
-
 
 
 \end{document}
