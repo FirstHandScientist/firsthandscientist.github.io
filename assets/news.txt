@@ -1,4 +1,5 @@
-9/2019: Get IEEE SPS Travel Grant Award
-5/2019: News entry 7
-1/2019: News entry 6
-12/2018: News entry 5
+11/2026: Our brand entity linking work will be presented at CIKM 2026 in Rome.
+10/2026: Our paper <a href="https://arxiv.org/abs/2502.01555">Bridging Queries and Brands: Entity Linking for Large-Scale Product Search</a>, with Sreyashi Nag, was accepted at CIKM 2026.
+10/2026: Our paper <a href="https://arxiv.org/abs/2610.08513">Multilingual Benchmarking of Persona-Based Agents on Real-World Discussions</a> (Wiki-Talkie), with Dennis Fucci, Andrea Bacciu, Weronika Łajewska and Saab Mansour, was accepted at the REALM workshop at EMNLP 2026.
+4/2026: Our paper <a href="https://link.springer.com/10.1007/978-3-032-21321-1_16">Iterative Reranking as a Compute-Scaling Method for LLM-Based Rankers</a>, with Tamara Czinczoll and Filippo Betello, appeared at ECIR 2026.
+4/2026: Our paper <a href="https://arxiv.org/abs/2501.18707">Hierarchical Multi-field Representations for Two-Stage E-commerce Retrieval</a>, with Niklas Freymuth and others, appeared at the LID workshop at ECIR 2026.
